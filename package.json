@@ -1,0 +1,28 @@
+{
+  "name": "sweetAsBeers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx run-p server:watch",
+    "server:watch": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danielrhodesy/sweetAsBeers-FS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danielrhodesy/sweetAsBeers-FS/issues"
+  },
+  "homepage": "https://github.com/Danielrhodesy/sweetAsBeers-FS#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.18.3",
+    "nodemon": "^1.19.1",
+    "npm-run-all": "^4.1.5",
+    "sqlite3": "^4.0.9"
+  }
+}
